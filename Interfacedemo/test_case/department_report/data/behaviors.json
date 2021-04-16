@@ -1,0 +1,77 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "部门模块",
+    "children" : [ {
+      "name" : "添加部门",
+      "children" : [ {
+        "name" : "test_create_department[添加部门]",
+        "uid" : "c2189fc76a519ed8",
+        "parentUid" : "0d5ba08137aca800c049424bc753bc04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618576447472,
+          "stop" : 1618576448050,
+          "duration" : 578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "'技术部'" ]
+      } ],
+      "uid" : "0d5ba08137aca800c049424bc753bc04"
+    }, {
+      "name" : "更新部门",
+      "children" : [ {
+        "name" : "test_update_department[更新部门]",
+        "uid" : "57d3ce42180cac35",
+        "parentUid" : "dd59241abf3ba4d0a3b1a4d2d35f57fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618576448065,
+          "stop" : 1618576448706,
+          "duration" : 641
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "'技术研发中心'" ]
+      } ],
+      "uid" : "dd59241abf3ba4d0a3b1a4d2d35f57fd"
+    }, {
+      "name" : "删除部门",
+      "children" : [ {
+        "name" : "test_delete_department[删除部门]",
+        "uid" : "f4188a2666394f7e",
+        "parentUid" : "0645f47b4cf2b55f22efc23934af0620",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618576448706,
+          "stop" : 1618576449268,
+          "duration" : 562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2" ]
+      } ],
+      "uid" : "0645f47b4cf2b55f22efc23934af0620"
+    }, {
+      "name" : "字段校验",
+      "children" : [ {
+        "name" : "test_get_department_list",
+        "uid" : "3e5d47137453ff61",
+        "parentUid" : "28335635b4d86e2fe556516bc47e9cb1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618576449284,
+          "stop" : 1618576449565,
+          "duration" : 281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28335635b4d86e2fe556516bc47e9cb1"
+    } ],
+    "uid" : "d437bdb59728123f7659c59ff95d2201"
+  } ]
+}

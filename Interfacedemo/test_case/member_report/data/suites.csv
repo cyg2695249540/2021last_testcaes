@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 16 21:07:23 CST 2021","Fri Apr 16 21:07:23 CST 2021","1","","test_member","TestMember","","","test_get_department_member_list[获取部门成员]",""
+"passed","Fri Apr 16 21:07:20 CST 2021","Fri Apr 16 21:07:21 CST 2021","684","","test_member","TestMember","","","test_create_member[添加成员]",""
+"passed","Fri Apr 16 21:07:22 CST 2021","Fri Apr 16 21:07:23 CST 2021","680","","test_member","TestMember","","","test_delete_member[删除成员]",""
+"passed","Fri Apr 16 21:07:23 CST 2021","Fri Apr 16 21:07:23 CST 2021","1","","test_member","TestMember","","","test_get_memberdetail[读取成员]",""
+"passed","Fri Apr 16 21:07:21 CST 2021","Fri Apr 16 21:07:22 CST 2021","615","","test_member","TestMember","","","test_update_member[更新成员]",""

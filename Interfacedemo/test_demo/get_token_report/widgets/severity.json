@@ -1,0 +1,31 @@
+[ {
+  "uid" : "8db5ed27fcd987ad",
+  "name" : "test_get_token[缺少corpid]",
+  "time" : {
+    "start" : 1618535341885,
+    "stop" : 1618535342151,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdbaf77e635f6efa",
+  "name" : "test_get_token[缺少corpsecret]",
+  "time" : {
+    "start" : 1618535342166,
+    "stop" : 1618535342401,
+    "duration" : 235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae723b4e7398a471",
+  "name" : "test_get_token[正确的corpid和corpsecret]",
+  "time" : {
+    "start" : 1618535342416,
+    "stop" : 1618535342619,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

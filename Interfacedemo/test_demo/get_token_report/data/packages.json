@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_get_token",
+    "children" : [ {
+      "name" : "test_get_token[缺少corpid]",
+      "uid" : "8db5ed27fcd987ad",
+      "parentUid" : "742c1a0034e3ba1ad1fc9e1eb7c714b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618535341885,
+        "stop" : 1618535342151,
+        "duration" : 266
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'ww0ae123b953d2b956'", "'6EnVDtGal3C_RTpEnNbqr4ynHc7AZ--O3MJg-d7E0Bo'", "'ok'" ]
+    }, {
+      "name" : "test_get_token[缺少corpsecret]",
+      "uid" : "fdbaf77e635f6efa",
+      "parentUid" : "742c1a0034e3ba1ad1fc9e1eb7c714b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618535342166,
+        "stop" : 1618535342401,
+        "duration" : 235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "''", "'6EnVDtGal3C_RTpEnNbqr4ynHc7AZ--O3MJg-d7E0Bo'", "'corpid missing'" ]
+    }, {
+      "name" : "test_get_token[正确的corpid和corpsecret]",
+      "uid" : "ae723b4e7398a471",
+      "parentUid" : "742c1a0034e3ba1ad1fc9e1eb7c714b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618535342416,
+        "stop" : 1618535342619,
+        "duration" : 203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'ww0ae123b953d2b956'", "''", "'corpsecret missing'" ]
+    } ],
+    "uid" : "742c1a0034e3ba1ad1fc9e1eb7c714b1"
+  } ]
+}

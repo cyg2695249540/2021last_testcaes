@@ -1,0 +1,68 @@
+{
+  "uid" : "ae723b4e7398a471",
+  "name" : "test_get_token[正确的corpid和corpsecret]",
+  "fullName" : "test_get_token.TestGetToken#test_get_token",
+  "historyId" : "52665b788998fb7cfbfd2a3d3cfefd06",
+  "time" : {
+    "start" : 1618535342416,
+    "stop" : 1618535342619,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取通讯录模块token"
+  }, {
+    "name" : "feature",
+    "value" : "获取access_token模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_token"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetToken"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8UGLRQ7"
+  }, {
+    "name" : "thread",
+    "value" : "21540-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_get_token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "corpid",
+    "value" : "'ww0ae123b953d2b956'"
+  }, {
+    "name" : "corpsecret",
+    "value" : "''"
+  }, {
+    "name" : "errmsg",
+    "value" : "'corpsecret missing'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae723b4e7398a471.json",
+  "parameterValues" : [ "'ww0ae123b953d2b956'", "''", "'corpsecret missing'" ]
+}

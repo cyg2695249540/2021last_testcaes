@@ -1,0 +1,68 @@
+{
+  "uid" : "8db5ed27fcd987ad",
+  "name" : "test_get_token[缺少corpid]",
+  "fullName" : "test_get_token.TestGetToken#test_get_token",
+  "historyId" : "d50388e3a3c2b03cc1cd67ebf81a042f",
+  "time" : {
+    "start" : 1618535341885,
+    "stop" : 1618535342151,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取通讯录模块token"
+  }, {
+    "name" : "feature",
+    "value" : "获取access_token模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_get_token"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetToken"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8UGLRQ7"
+  }, {
+    "name" : "thread",
+    "value" : "21540-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_get_token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "corpid",
+    "value" : "'ww0ae123b953d2b956'"
+  }, {
+    "name" : "corpsecret",
+    "value" : "'6EnVDtGal3C_RTpEnNbqr4ynHc7AZ--O3MJg-d7E0Bo'"
+  }, {
+    "name" : "errmsg",
+    "value" : "'ok'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8db5ed27fcd987ad.json",
+  "parameterValues" : [ "'ww0ae123b953d2b956'", "'6EnVDtGal3C_RTpEnNbqr4ynHc7AZ--O3MJg-d7E0Bo'", "'ok'" ]
+}

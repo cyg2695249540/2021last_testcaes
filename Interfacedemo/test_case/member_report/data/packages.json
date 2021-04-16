@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_member",
+    "children" : [ {
+      "name" : "test_create_member[添加成员]",
+      "uid" : "af6b0fc3845ec776",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618578440794,
+        "stop" : 1618578441478,
+        "duration" : 684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'张三'", "'zhangsan'" ]
+    }, {
+      "name" : "test_update_member[更新成员]",
+      "uid" : "94e43f77a318fe6a",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618578441719,
+        "stop" : 1618578442334,
+        "duration" : 615
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'张三1'", "'zhangsan'" ]
+    }, {
+      "name" : "test_delete_member[删除成员]",
+      "uid" : "d57d745713325971",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618578442593,
+        "stop" : 1618578443273,
+        "duration" : 680
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "'张三1'", "'zhangsan'" ]
+    }, {
+      "name" : "test_get_memberdetail[读取成员]",
+      "uid" : "c043cda77557f232",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618578443546,
+        "stop" : 1618578443547,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'zhangsan'" ]
+    }, {
+      "name" : "test_get_department_member_list[获取部门成员]",
+      "uid" : "fbeeaa0158bf91f4",
+      "parentUid" : "8a323808f876c4ca6ffee2d685fb6479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618578443829,
+        "stop" : 1618578443830,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'zhangsan'" ]
+    } ],
+    "uid" : "8a323808f876c4ca6ffee2d685fb6479"
+  } ]
+}

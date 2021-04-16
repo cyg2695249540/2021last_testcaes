@@ -1,0 +1,65 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_department",
+    "children" : [ {
+      "name" : "TestDepartment",
+      "children" : [ {
+        "name" : "test_create_department[添加部门]",
+        "uid" : "c2189fc76a519ed8",
+        "parentUid" : "ff29ede8ff8ad7ba37ae98b1612c3474",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618576447472,
+          "stop" : 1618576448050,
+          "duration" : 578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "'技术部'" ]
+      }, {
+        "name" : "test_update_department[更新部门]",
+        "uid" : "57d3ce42180cac35",
+        "parentUid" : "ff29ede8ff8ad7ba37ae98b1612c3474",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618576448065,
+          "stop" : 1618576448706,
+          "duration" : 641
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "'技术研发中心'" ]
+      }, {
+        "name" : "test_delete_department[删除部门]",
+        "uid" : "f4188a2666394f7e",
+        "parentUid" : "ff29ede8ff8ad7ba37ae98b1612c3474",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618576448706,
+          "stop" : 1618576449268,
+          "duration" : 562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2" ]
+      }, {
+        "name" : "test_get_department_list",
+        "uid" : "3e5d47137453ff61",
+        "parentUid" : "ff29ede8ff8ad7ba37ae98b1612c3474",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618576449284,
+          "stop" : 1618576449565,
+          "duration" : 281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff29ede8ff8ad7ba37ae98b1612c3474"
+    } ],
+    "uid" : "6c6eff7e10a204b9e95bf0acd4ee260b"
+  } ]
+}

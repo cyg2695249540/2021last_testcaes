@@ -1,0 +1,65 @@
+{
+  "uid" : "c043cda77557f232",
+  "name" : "test_get_memberdetail[读取成员]",
+  "fullName" : "test_member.TestMember#test_get_memberdetail",
+  "historyId" : "cbbca9479f5e428090ea68ff62de46d0",
+  "time" : {
+    "start" : 1618578443546,
+    "stop" : 1618578443547,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "成员模块"
+  }, {
+    "name" : "story",
+    "value" : "读取成员"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8UGLRQ7"
+  }, {
+    "name" : "thread",
+    "value" : "26944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "userid",
+    "value" : "'zhangsan'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=1)" ]
+  },
+  "source" : "c043cda77557f232.json",
+  "parameterValues" : [ "'zhangsan'" ]
+}

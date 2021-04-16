@@ -1,0 +1,41 @@
+[ {
+  "uid" : "c2189fc76a519ed8",
+  "name" : "test_create_department[添加部门]",
+  "time" : {
+    "start" : 1618576447472,
+    "stop" : 1618576448050,
+    "duration" : 578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4188a2666394f7e",
+  "name" : "test_delete_department[删除部门]",
+  "time" : {
+    "start" : 1618576448706,
+    "stop" : 1618576449268,
+    "duration" : 562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57d3ce42180cac35",
+  "name" : "test_update_department[更新部门]",
+  "time" : {
+    "start" : 1618576448065,
+    "stop" : 1618576448706,
+    "duration" : 641
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e5d47137453ff61",
+  "name" : "test_get_department_list",
+  "time" : {
+    "start" : 1618576449284,
+    "stop" : 1618576449565,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
