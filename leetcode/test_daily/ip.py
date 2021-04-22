@@ -9,7 +9,8 @@ def ip(a):
     for i in a:
         if i != "":
             listb.append(i)
-    listb = sorted(listb, key=lambda x: x[-1])
+    # listb = sorted(listb, key=lambda x: x[-1])
+    listb.sort(key=lambda x: x[-1])
     print(listb)
 
 
