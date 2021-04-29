@@ -1,0 +1,26 @@
+add1:
+  - [ "aaa", 12345, 13711111111,"保存成功" ]
+case1:
+  - "addmember succeed"
+addfail:
+  - [ "bbb", 123456, 13711111112 ]
+case2:
+  - "addmember defeated"
+add2:
+  - [ "ccc", 1234567, 13711111113,"保存成功" ]
+case3:
+  - "contact addmember succeed"
+del1:
+  - [ "aaa","删除成功" ]
+  - [ "ccc","删除成功" ]
+case4:
+  - "delete member aaa succeed"
+  - "delete member ccc succeed"
+addepartment:
+  - "手工组"
+case5:
+  - "add department succeed"
+addepartmentfail:
+  - "自动化"
+case6:
+  - "add department fail"
