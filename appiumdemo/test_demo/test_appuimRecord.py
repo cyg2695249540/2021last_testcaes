@@ -86,15 +86,16 @@ class TestWeiXin:
         mytoast = self.driver.find_element(MobileBy.XPATH, "//*[@class='android.widget.Toast']").text
         assert mytoast == "添加成功"
 
-    @pytest.mark.flaky(reruns=1)
+    # @pytest.mark.flaky(reruns=1)
     @pytest.mark.parametrize("name", [("LCQ")], ids={"delete member"})
     def test_deletemember(self, name):
         self.driver.find_element(MobileBy.XPATH, "//*[@text='通讯录']").click()
         self.driver.find_element(MobileBy.ID, "com.tencent.wework:id/h8q").click()
         self.driver.find_element(MobileBy.ID, "com.tencent.wework:id/g1n").send_keys(name)
-        sleep(1)
+        sleep(3)
         eles1 = self.driver.find_elements(MobileBy.XPATH, f"//*[@text='{name}']")
-        if len(eles1) == 1:
+        len1=len(eles1)
+        if  len1== 1:
             print(f"没有名为{name}的成员")
         else:
             eles1[-1].click()
@@ -108,6 +109,7 @@ class TestWeiXin:
         self.driver.find_element(MobileBy.XPATH, "//*[@text='确定']").click()
         sleep(5)
         eles2 = self.driver.find_elements(MobileBy.XPATH, f"//*[@text='{name}']")
-        assert len(eles1) - 1 == len(eles2)
-        r = self.driver.find_element(MobileBy.ID, "com.tencent.wework:id/ccl").text
+        len2=len(eles2)
+        assert len1 - 1 == len2
+        r = self.driver.find_element(MobileBy.ID, "com.tencent.wework:id/c4w").text
         assert r == "无搜索结果"
