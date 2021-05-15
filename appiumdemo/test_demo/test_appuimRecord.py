@@ -86,7 +86,7 @@ class TestWeiXin:
         mytoast = self.driver.find_element(MobileBy.XPATH, "//*[@class='android.widget.Toast']").text
         assert mytoast == "添加成功"
 
-    # @pytest.mark.flaky(reruns=1)
+    @pytest.mark.flaky(reruns=1)
     @pytest.mark.parametrize("name", [("LCQ")], ids={"delete member"})
     def test_deletemember(self, name):
         self.driver.find_element(MobileBy.XPATH, "//*[@text='通讯录']").click()
@@ -111,5 +111,5 @@ class TestWeiXin:
         eles2 = self.driver.find_elements(MobileBy.XPATH, f"//*[@text='{name}']")
         len2=len(eles2)
         assert len1 - 1 == len2
-        r = self.driver.find_element(MobileBy.ID, "com.tencent.wework:id/c4w").text
+        r = self.driver.find_element(MobileBy.ID, "com.tencent.wework:id/ccl").text
         assert r == "无搜索结果"
